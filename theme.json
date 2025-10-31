@@ -148,9 +148,6 @@
 						"color": {
 							"text": ""
 						},
-						"typography": {
-							"textDecoration": "underline"
-						},
 						":hover": {
 							"color": {
 								"text": ""
