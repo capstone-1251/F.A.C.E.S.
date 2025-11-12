@@ -1,5 +1,5 @@
 {
-	"version": 2,
+	"version": 3,
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"settings": {
 		"appearanceTools": true,
@@ -12,7 +12,7 @@
 				},
 				{
 					"slug": "light-blue",
-					"color": "#313B6E",
+					"color": "#314087",
 					"name": "Light Blue"
 				},
 				{
@@ -31,9 +31,9 @@
 					"name": "Beige"
 				}, 
 				{
-					"slug": "salmon",
+					"slug": "accent",
 					"color": "#FF624D",
-					"name": "Salmon"
+					"name": "Accent"
 				}
 			]
 		},
@@ -136,6 +136,24 @@
 	},
 	"styles": {
 		"blocks": {
+			"core/heading": {
+				"color": {
+					"text": "var(--wp--preset--color--dark-blue)"
+				},
+				"typography": {
+					"fontWeight": "600",
+					"fontSize": "1.75rem"
+				}
+			},
+			"core/post-title": {
+				"color": {
+					"text": "var(--wp--preset--color--dark-blue)"
+				}, 
+				"typography": {
+					"fontWeight": "700",
+					"fontSize": "2.5rem"
+				}
+			},
 			"core/code": {
 				"color": {
 					"text": ""
@@ -146,11 +164,12 @@
 				"elements": {
 					"link": {
 						"color": {
-							"text": ""
+							"text": "var(--wp--preset--color--white)"
 						},
 						":hover": {
 							"color": {
-								"text": ""
+								"text": "var(--wp--preset--color--white)",
+								"background": "var(--wp--preset--color--accent)"
 							},
 							"typography": {
 								"textDecoration": "none"
@@ -158,15 +177,22 @@
 						},
 						":focus": {
 							"color": {
-								"text": ""
+								"text": "var(--wp--preset--color--white)",
+								"background": "var(--wp--preset--color--accent)"
 							}
 						},
 						":active": {
 							"color": {
-								"text": ""
+								"text": "var(--wp--preset--color--white)",
+								"background": "var(--wp--preset--color--accent)"
 							}
 						}
 					}
+				}
+			},
+			"core/site-header":{
+				"color": {
+					"background": "var(--wp--preset-color-light-blue)"
 				}
 			},
 			"core/post-author-name": {
@@ -231,17 +257,11 @@
 			"button": {
 				"spacing": {
 					"padding": {
-						"top": "",
-						"right": "",
-						"bottom": "",
-						"left": ""
+						"top": "1rem",
+						"right": "1rem",
+						"bottom": "1rem",
+						"left": "1rem"
 					}
-				},
-				"border": {
-					"color": "",
-					"width": "",
-					"style": "solid",
-					"radius": ""
 				},
 				"color": {
 					"background": "",
