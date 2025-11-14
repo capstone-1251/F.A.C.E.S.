@@ -195,6 +195,10 @@
 								"text": "var(--wp--preset--color--white)",
 								"background": "var(--wp--preset--color--accent)"
 							}
+						},
+						"typography": {
+							"fontFamily": "\"Open Sans\", sans serif",
+							"fontSize": "1rem"
 						}
 					}
 				}
