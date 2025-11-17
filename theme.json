@@ -32,14 +32,14 @@
 				}, 
 				{
 					"slug": "accent",
-					"color": "#FF624D",
+					"color": "#E94848",
 					"name": "Accent"
 				}
 			]
 		},
 		"layout": {
-			"contentSize": "700px",
-			"wideSize": "1100px"
+			"contentSize": "1200px",
+			"wideSize": "1400px"
 		},
 		"spacing": {
 			"units": [ "px", "em", "rem", "vh", "vw", "%" ]
@@ -55,7 +55,7 @@
 					"fontFace": [
 						{
 							"fontFamily": "Open Sans",
-							"fontWeight": "400 700",
+							"fontWeight": "400 700 800 900",
 							"fontStyle": "normal",
 							"fontStretch": "normal",
 							"src": [
@@ -93,7 +93,7 @@
 			"fontSizes": [
 				{
 					"slug": "small",
-					"size": "1.125rem",
+					"size": "1rem",
 					"name": "Small",
 					"fluid": false
 				},
@@ -128,6 +128,15 @@
 					"fluid": {
 						"min": "3rem",
 						"max": "3.75rem"
+					}
+				},
+				{
+					"slug": "xxx-large",
+					"size": "4rem",
+					"name": "XXXL",
+					"fluid": {
+						"min": "3.25rem",
+						"max": "4rem"
 					}
 				}
 			]
@@ -186,6 +195,10 @@
 								"text": "var(--wp--preset--color--white)",
 								"background": "var(--wp--preset--color--accent)"
 							}
+						},
+						"typography": {
+							"fontFamily": "\"Open Sans\", sans serif",
+							"fontSize": "1rem"
 						}
 					}
 				}
@@ -208,16 +221,12 @@
 					}
 				}
 			},
-			"core/post-date": {
-				"typography": {
-					"fontSize": ""
-				}
-			},
 			"core/post-excerpt": {
 				"elements": {
 					"link": {
 						"typography": {
-							"fontSize": ""
+							"fontFamily": "\"Open Sans\", sans serif",
+							"fontSize": "1rem"
 						}
 					}
 				}
@@ -247,11 +256,25 @@
 				"typography": {
 					"lineHeight": "1"
 				}
+			},
+			"core/paragraph": {
+				"typography": {
+					"fontFamily": "\"Open Sans\", sans serif",
+					"fontSize": "1rem"
+				},
+				"color": {
+					"text": "var(--wp--preset--color--dark-blue)"
+				}
+			},
+			"core/list": {
+				"typography": {
+					"fontFamily": "\"Open Sans\", sans serif",
+					"fontSize": "1rem"
+				},
+				"color": {
+					"text": "var(--wp--preset--color--dark-blue)"
+				}
 			}
-		},
-		"color": {
-			"background": "",
-			"text": ""
 		},
 		"elements": {
 			"button": {
@@ -268,8 +291,8 @@
 					"text": ""
 				},
 				"typography": {
-					"fontSize": "",
-					"fontWeight": "700"
+					"fontFamily": "\"Open Sans\", sans serif",
+					"fontSize": "1rem"
 				},
 				"shadow": "",
 				":hover": {
