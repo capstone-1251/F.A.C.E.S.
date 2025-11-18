@@ -173,7 +173,7 @@
 				"elements": {
 					"link": {
 						"color": {
-							"text": "var(--wp--preset--color--white)"
+							"text": "#FFFFFF"
 						},
 						":hover": {
 							"color": {
