@@ -3,7 +3,7 @@
  * Title: Columns with circular images
  * Slug: f-a-c-e-s/columns-with-images
  * Categories: featured
- * Block Types: core/image, core/columns
+ * Block Types: core/image, core/columns, core/image
  *
  * @package f-a-c-e-s
  * @since 1.0.0
