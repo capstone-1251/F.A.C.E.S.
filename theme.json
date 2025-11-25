@@ -275,6 +275,12 @@
 				"color": {
 					"text": "var(--wp--preset--color--dark-blue)"
 				}
+			}, 
+			"core/navigation-submenu": {
+				"color": {
+					"text": "var(--wp--preset--color--white)",
+					"background": "var(--wp--preset-color-light-blue)"
+				}
 			}
 		},
 		"elements": {

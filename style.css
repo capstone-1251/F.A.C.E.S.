@@ -39,3 +39,11 @@ body {
     width: 100% !important;
 	border-radius: 5px !important;
 }
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 1.75rem;
+}
