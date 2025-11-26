@@ -308,37 +308,24 @@
 					}
 				}
 			},
-			"caption": {
+			"h1": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--xx-large)",
+					"lineHeight": "1.5", 
+					"fontFamily": "\"Abhaya Libre\", serif"
+				}, 
 				"color": {
-					"text": ""
+					"text": "var(--wp--preset--color--dark-blue)"
 				}
-			},
-			"cite": {
+			}, 
+			"h2": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--large)",
+					"lineHeight": "1.5",
+					"fontFamily": "\"Abhaya Libre\", serif"
+				}, 
 				"color": {
-					"text": ""
-				}
-			},
-			"link": {
-				"color": {
-					"text": ""
-				},
-				":hover": {
-					"color": {
-						"text": ""
-					},
-					"typography": {
-						"textDecoration": "none"
-					}
-				},
-				":focus": {
-					"color": {
-						"text": ""
-					}
-				},
-				":active": {
-					"color": {
-						"text": ""
-					}
+					"text": "var(--wp--preset--color--dark-blue)"
 				}
 			}
 		},

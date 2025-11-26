@@ -1,7 +1,8 @@
 <!-- wp:template-part {"slug":"header","theme":"f-a-c-e-s","tagName":"header","className":"site-header"} /-->
 
-<!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"bottom":"var:preset|spacing|50"}}},"backgroundColor":"light-blue","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-background" style="background:linear-gradient(0deg,rgb(6,26,38) 0%,rgb(49,64,135) 57%);margin-top:0;margin-bottom:0;padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:post-title {"align":"wide","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} /-->
+<!-- wp:group {"tagName":"main","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
+<main class="wp-block-group"><!-- wp:group {"tagName":"section","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"bottom":"var:preset|spacing|50"}}},"backgroundColor":"light-blue","layout":{"type":"constrained"}} -->
+<section class="wp-block-group has-light-blue-background-color has-background" style="margin-top:0;margin-bottom:0;padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:post-title {"align":"wide","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} /-->
 
 <!-- wp:heading {"align":"wide","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} -->
 <h2 class="wp-block-heading alignwide has-white-color has-text-color has-link-color">Register</h2>
@@ -13,8 +14,8 @@
 <p class="has-white-color has-text-color has-link-color">We continue to increase public interest in the knowledge of Filipino Heritage Education though classroom base learning of the Filipino language, increase cultural participation and formal instructions of skills in the performing arts, establish standard of excellence and acceptance of professional credentials, and support professional development through conferences, meetings, publications and research about the Filipino heritage languages and cultural diversity.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"align":"left","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"backgroundColor":"accent","textColor":"white"} -->
-<p class="has-text-align-left has-white-color has-accent-background-color has-text-color has-background has-link-color" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">Annual Membership Fee: $20</p>
+<!-- wp:paragraph {"align":"left","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} -->
+<p class="has-text-align-left has-white-color has-text-color has-link-color" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><strong>Annual Membership Fee: $20</strong></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -49,13 +50,14 @@
 <!-- /wp:list-item --></ol>
 <!-- /wp:list --></div>
 <!-- /wp:column --></div>
-<!-- /wp:columns --></div>
+<!-- /wp:columns --></section>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"type":"constrained"},"padding":"small"} -->
-<div class="wp-block-group"><!-- wp:shortcode -->
+<!-- wp:group {"tagName":"section","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"},"padding":"small"} -->
+<section class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--50)"><!-- wp:shortcode -->
 [forminator_form id="635"]
-<!-- /wp:shortcode --></div>
+<!-- /wp:shortcode --></section>
+<!-- /wp:group --></main>
 <!-- /wp:group -->
 
 <!-- wp:template-part {"slug":"footer","theme":"f-a-c-e-s","tagName":"footer","className":"site-footer"} /-->
