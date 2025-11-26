@@ -40,10 +40,6 @@ body {
 	border-radius: 5px !important;
 }
 
-h1 {
-	font-size: 3rem;
-}
-
-h2 {
-	font-size: 1.75rem;
+footer.site-footer {
+	margin-top: 0 !important;
 }
