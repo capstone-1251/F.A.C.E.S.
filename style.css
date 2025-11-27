@@ -44,8 +44,28 @@ footer.site-footer {
 	margin-top: 0 !important;
 }
 
-/*Home*/
+/*about-us*/
+    /*our-story*/
+    .our-story .wp-block-cover__background {
+    background-image: url('http://faces.local/wp-content/uploads/2025/11/our-story-desktop.png') !important;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    /* background-position: center !important; */
+        
+}
+  /*our-community*/
+    .our-community .wp-block-cover__background {
+    background-image: url('http://faces.local/wp-content/uploads/2025/11/our-community-desktop.png') !important;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+        
+}
+
+
+
+/*mobile*/
 @media (max-width:768px) {
+    /*Home*/
     .about-us-home.wp-block-group,
     .about-us-home.wp-block-group  {
         background-image: url('http://faces.local/wp-content/uploads/2025/11/mobile-aboutus.png') !important;
@@ -53,5 +73,21 @@ footer.site-footer {
         background-position: center;
        
     }
+     /*our-story*/
+    .our-story>span.wp-block-cover__background {
+    background-image: url('http://faces.local/wp-content/uploads/2025/11/our-story-mobile.png') !important;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    }
+
+    /*our-community*/
+    .our-community>span.wp-block-cover__background {
+    background-image: url('http://faces.local/wp-content/uploads/2025/11/our-community-mobile.png') !important;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    }
 
 }
+
