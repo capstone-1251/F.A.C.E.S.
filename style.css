@@ -43,3 +43,15 @@ body {
 footer.site-footer {
 	margin-top: 0 !important;
 }
+
+/*Home*/
+@media (max-width:768px) {
+    .about-us-home.wp-block-group,
+    .about-us-home.wp-block-group  {
+        background-image: url('http://faces.local/wp-content/uploads/2025/11/mobile-aboutus.png') !important;
+        background-size: cover;
+        background-position: center;
+       
+    }
+
+}
