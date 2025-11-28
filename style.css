@@ -44,7 +44,7 @@ footer.site-footer {
 	margin-top: 0 !important;
 }
 
-h1,h2 {
+h1 {
     text-transform: uppercase;
 }
 
@@ -110,7 +110,7 @@ h1.wp-block-heading {
 /*Home:About-us*/
 
     .about-us-home.wp-block-group{
-        background-image: url("http://faces.local/wp-content/uploads/2025/11/new-home-about.png");
+        background-image: url("http://k40.32b.myftpupload.com/wp-content/uploads/2025/11/new-home-about.png");
         background-size: cover;
         background-repeat: no-repeat !important;
         margin-top: 0 !important;
@@ -134,7 +134,7 @@ h1.wp-block-heading {
 /*About-us*/
     /*our-story*/
     .our-story .wp-block-cover__background {
-    background-image: url('http://faces.local/wp-content/uploads/2025/11/our-story-desktop.png') !important;
+    background-image: url('http://k40.32b.myftpupload.com/wp-content/uploads/2025/11/our-story-desktop.png') !important;
     background-size: cover;
     background-repeat: no-repeat !important;
     /* background-position: center !important; */
@@ -142,7 +142,7 @@ h1.wp-block-heading {
 }
   /*our-community*/
     .our-community .wp-block-cover__background {
-    background-image: url('http://faces.local/wp-content/uploads/2025/11/our-community-desktop.png') !important;
+    background-image: url('http://k40.32b.myftpupload.com/wp-content/uploads/2025/11/our-community-desktop.png') !important;
     background-size: cover;
     background-repeat: no-repeat !important;
         
@@ -166,7 +166,7 @@ h1.wp-block-heading {
     }
     .about-us-home.wp-block-group,
     .about-us-home.wp-block-group  {
-        background-image: url('http://faces.local/wp-content/uploads/2025/11/mobile-aboutus.png') !important;
+        background-image: url('http://k40.32b.myftpupload.com/wp-content/uploads/2025/11/mobile-aboutus.png') !important;
         background-size: cover;
         background-position: center;
        
@@ -182,7 +182,7 @@ h1.wp-block-heading {
     }
      /*our-story*/
     .our-story>span.wp-block-cover__background {
-    background-image: url('http://faces.local/wp-content/uploads/2025/11/our-story-mobile.png') !important;
+    background-image: url('http://k40.32b.myftpupload.com/wp-content/uploads/2025/11/our-story-mobile.png') !important;
     background-size: cover;
     background-repeat: no-repeat !important;
     background-position: center !important;
@@ -190,12 +190,19 @@ h1.wp-block-heading {
 
     /*our-community*/
     .our-community>span.wp-block-cover__background {
-    background-image: url('http://faces.local/wp-content/uploads/2025/11/our-community-mobile.png') !important;
+    background-image: url('http://k40.32b.myftpupload.com/wp-content/uploads/2025/11/our-community-mobile.png') !important;
     background-size: cover;
     background-repeat: no-repeat !important;
     background-position: center !important;
     }
-
 }
 
+@media (max-width: 1200px) {
+    .add-padding {
+        padding: 0px 1rem 1rem 1rem !important;
+    }
 
+    h1 {
+        padding: 0px 1rem 0px 1rem !important;
+    }
+}
