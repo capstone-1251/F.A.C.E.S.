@@ -140,7 +140,7 @@ footer {
 /*Home:About-us*/
 
     .about-us-home.wp-block-group{
-        background-image: url("http://k40.32b.myftpupload.com/wp-content/uploads/2025/11/new-home-about.png");
+        background-image: url("https://k40.32b.myftpupload.com/wp-content/uploads/2025/12/Home-aboutus-BG-desktop.jpg");
         background-size: cover;
         background-repeat: no-repeat !important;
         margin-top: 0 !important;
@@ -164,7 +164,7 @@ footer {
 /*About-us*/
     /*our-story*/
     .our-story .wp-block-cover__background {
-    background-image: url('http://k40.32b.myftpupload.com/wp-content/uploads/2025/11/our-story-desktop.png') !important;
+    background-image: url('https://k40.32b.myftpupload.com/wp-content/uploads/2025/12/Our-story-BG-desktop.jpg') !important;
     background-size: cover;
     background-repeat: no-repeat !important;
     /* background-position: center !important; */
@@ -172,7 +172,7 @@ footer {
 }
   /*our-community*/
     .our-community .wp-block-cover__background {
-    background-image: url('http://k40.32b.myftpupload.com/wp-content/uploads/2025/11/our-community-desktop.png') !important;
+    background-image: url('https://k40.32b.myftpupload.com/wp-content/uploads/2025/12/Our-Mission-BG-desktop.jpg') !important;
     background-size: cover;
     background-repeat: no-repeat !important;
         
@@ -184,6 +184,13 @@ footer {
 
     section.wp-block-cover:last-of-type {
         margin-bottom: 24px;
+    }
+
+    /*Event*/
+    .event-bg {
+     background-image: url('https://k40.32b.myftpupload.com/wp-content/uploads/2025/12/Event-BG-desktop.jpg') !important;
+    background-size: cover;
+    background-repeat: no-repeat !important;
     }
 
 
@@ -207,7 +214,7 @@ footer {
     }
     .about-us-home.wp-block-group,
     .about-us-home.wp-block-group  {
-        background-image: url('http://k40.32b.myftpupload.com/wp-content/uploads/2025/11/mobile-aboutus.png') !important;
+        background-image: url('https://k40.32b.myftpupload.com/wp-content/uploads/2025/12/Home-aboutus-BG-mobile.jpg') !important;
         background-size: cover;
         background-position: center;
        
@@ -232,7 +239,7 @@ footer {
    
      /*our-story*/
     .our-story>span.wp-block-cover__background {
-    background-image: url('http://k40.32b.myftpupload.com/wp-content/uploads/2025/11/our-story-mobile.png') !important;
+    background-image: url('https://k40.32b.myftpupload.com/wp-content/uploads/2025/12/Our-story-BG-mobile.jpg') !important;
     background-size: cover;
     background-repeat: no-repeat !important;
     background-position: center !important;
@@ -240,7 +247,7 @@ footer {
 
     /*our-community*/
     .our-community>span.wp-block-cover__background {
-    background-image: url('http://k40.32b.myftpupload.com/wp-content/uploads/2025/11/our-community-mobile.png') !important;
+    background-image: url('https://k40.32b.myftpupload.com/wp-content/uploads/2025/12/Our-Mission-BG-mobile.jpg') !important;
     background-size: cover;
     background-repeat: no-repeat !important;
     background-position: center !important;
@@ -249,6 +256,13 @@ footer {
     .members-content {
     padding: 48px 24px;
 }
+    /*Event*/
+    .event-bg {
+     background-image: url('https://k40.32b.myftpupload.com/wp-content/uploads/2025/12/Event-BG-mobile.jpg') !important;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    }
+
     footer {
         padding: 24px;
     }
